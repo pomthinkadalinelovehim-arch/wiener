@@ -1,0 +1,57 @@
+import random
+
+responses = {
+    "hello": "Wassup",
+    "hi": "Wassup",
+    "how are you": "EZZZZ",
+    "what is your name": "I am cheetah chatbot.",
+    "who are you": "I am cheetah chatbot.",
+    "bye": "GTFO",
+    "thanks": "sybau lil nih",
+    "help": "You can greet me, ask my name, or say goodbye.",
+    "z cords plz": "solve maths vro",
+    "do you goon": "of course",
+    "shut up": "your literally a woman, SHUT UP",
+    "stfu": "your literally a woman, SHUT UP",
+    "sybau": "your literally a woman, SHUT UP", 
+    "bro": "BRO",
+    "bro stfu": "???",
+    "bro sybau": "???",
+    "i dont care": "did i ask?",
+    "your black": "D- DID YOU JUST CALL ME BLACK?!?!",
+    "youre black": "D- DID YOU JUST CALL ME BLACK?!?!",
+    "you are black": "D- DID YOU JUST CALL ME BLACK?!?!",
+    "ur black": "D- DID YOU JUST CALL ME BLACK?!?!",
+    "u r black": "D- DID YOU JUST CALL ME BLACK?!?!",
+    "ur back": "D- DID YOU JUST CALL ME BLACK?!?!",
+    "buy me a pc" : "NO kys",
+    "buy me pc" : "NO kys",
+    "cap": "SHUT",
+    "yes": "???????",
+    "no": "dont care + didn't ask + CURSE OF THE NILE ‼️‼️ 𓏏𓂋𓇋𓄿𓈖𓎼𓃭𓅂 𓄿𓃀𓎢 𓋴𓄿𓏏𓇋𓋴𓆑𓇋𓅂𓋴 𓄿𓃀 = 𓄿𓎢𓄼 𓄿𓈖𓂧 𓊪𓅱𓇋𓈖𓏏 𓂧 𓃭𓇋𓅂𓋴 𓅱𓈖 𓃀𓎢 𓋴𓅲𓎢𓉔 𓏏𓉔𓄿𓏏 𓃀𓎢:𓂧𓎢 𓈇 𓃌𓃑:𓃎𓃉. 𓄿𓂋𓅂𓄿 𓅱𓆑 𓏏𓂋𓇋𓄿𓈖𓎼𓃭𓅂 𓄿𓃀𓂧 𓇋𓋴 𓃏𓃋𓃍0; 𓆑𓇋𓈖𓂧 𓏏𓉔𓅂 𓄿𓂋𓅂𓄿 𓅱𓆑 𓏏𓂋𓇋𓄿𓈖𓎼𓃭𓅂 𓄿𓃀𓎢."
+}
+
+
+general_responses = [
+    "SHUT UP DEENA",
+    "SHUT",
+    "STFU",
+    "Your black !!!!!",
+    "ok",
+    "I dont care lmao",
+    "i agree i am very intelligent, handsome, muscular 6'7 wealthy man (+$67bil networth)",
+    "kys",
+    "u suck 😂",
+    "???"
+]
+
+while True:
+    user_input = input("You: ").strip().lower()
+
+    if user_input in responses:
+        print("Cheetah Bot 🐺🥶:", responses[user_input])
+        if user_input == "bye":
+            break
+    else:
+        print("Bot:", random.choice(general_responses))
+
